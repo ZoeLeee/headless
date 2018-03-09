@@ -1,0 +1,14 @@
+{
+  "name": "headless",
+  "version": "1.0.0",
+  "description": "node headless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zoe",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.1.1"
+  }
+}
