@@ -1,5 +1,5 @@
 const path=require("path");
 
 module.exports={
-  path:path.resolve(__dirname,"../../images")
+  imgPath:path.resolve(__dirname,"../../images")
 }
