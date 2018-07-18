@@ -3,7 +3,9 @@ const config=require('./config/config');
 const urlToImg=require('./util/save');
 
 (async ()=>{
-  const browser=await puppeteer.launch();
+  const browser=await puppeteer.launch({
+    headless:true
+  });
   const page=await browser.newPage();
   await page.goto("https://www.google.com/imghp?hl=zh-CN");
   await page.focus("#lst-ib");

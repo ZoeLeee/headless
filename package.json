@@ -9,9 +9,7 @@
   "author": "zoe",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^1.1.1"
+    "puppeteer": "^1.6.0"
   },
-  "devDependencies": {
-    "jest": "^22.4.2"
-  }
+  "devDependencies": {}
 }
